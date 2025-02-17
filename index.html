@@ -6,6 +6,10 @@
     <title>Mới Học Web</title>
   </head>
   <body>
+
+    Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -Name 'fDenyTSConnections' -Value 0
+Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
+
     <ol type="I">
       <li>Mở Bài</i></li>
       <li>Thân Bài</li>
